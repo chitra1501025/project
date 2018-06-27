@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<script src = "angular.min.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family:"Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("so.jpg");
+    min-height: 90%;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#profile" class="w3-bar-item w3-button">PROFILE</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#googleMap" class="w3-bar-item w3-button">CONTACT</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">WEB DEVELOPER</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">CHITRA<br>To Discover More !!!</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>CHITRA<br>RAGHAVI</b></span>
+    <p><a href="#profile" class="w3-button w3-xxlarge w3-black">Unbolt The RESUME</a></p>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="profile">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE PROFILE</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Education</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Area of interest</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Strength</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Co');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Co-Curricular</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Extra');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Extra Curricular</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Inplant');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Inplant</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Project');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Project</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Key');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Key Course Taken</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Skill');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Skills</div>
+      </a>
+      
+    </div>
+
+    <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>10th Percentage</b> <span class="w3-right w3-tag w3-dark-grey w3-round">78%</span></h1>
+      <p class="w3-text-grey">Kurinji Higher Secondary School</p>
+      <p class="w3-text-grey">year of passing:2013</p>
+      <hr>
+   
+      <h1><b>12th Percentage</b> <span class="w3-right w3-tag w3-dark-grey w3-round">74%</span></h1>
+      <p class="w3-text-grey">Vidyaa Vikas Higher Secondary School</p>
+      <p class="w3-text-grey">year of passing:2015</p>
+      <hr>
+      
+      <h1><b>CGPA</b> <span class="w3-right w3-tag w3-dark-grey w3-round">6.47</span></h1>
+      <p class="w3-text-grey">Sri Ramakrishna Engineering Collage</p>
+      <p class="w3-text-grey">year of passing:2015-current</p>
+      <hr>
+
+      
+    </div>
+
+    <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>WEB DEVELOPEMENT</b> </h1>
+      <p class="w3-text-grey">Having lot of interest towards meanstack developement</p>
+      <hr>
+   
+      <h1><b>DATA ANALYTICS</b> </h1>
+      <p class="w3-text-grey">DONE PROJECT ON PREDICTION OF NPK LEVEL OF WHEAT CROP</p>
+      <hr>
+      
+      <h1><b>CYBER SECURITY</b> </h1>
+      <p class="w3-text-grey">KNOWN a little bit about IT security</p>
+      <hr>
+
+      <h1><b>MUSICAL INSTRUMENTS</b> </h1>
+      <p class="w3-text-grey">Keyboard,Guitar</p>
+    </div>
+
+
+    <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Strength</b> </h1>
+      <p class="w3-text-pink">Communicative Skills</p>
+      <p class="w3-text-pink">Promblem Solving</p>
+      <p class="w3-text-pink">Punctuality</p>
+      <p class="w3-text-pink">Team Coordination</p>
+      <p class="w3-text-pink">Tolerance</p>
+      <hr>
+   </div>
+    <div id="Co" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Co-Curricular</b> </h1>
+      <p class="w3-text-pink">Presented a Paper on "Sensor Networking" at Sri Ramakrishna Engineering
+        College,Coimbatore.</p>
+      <p class="w3-text-pink">Presented Paper on "Big data analytics using IoT" at Hindusthan College of
+        Technology,Coimbatore.</p>
+      <p class="w3-text-pink">Phython workshop : Attended a 1-day workshop on "phython programming" at Sri
+        Ramakrishna Engineering College ,Coimbatore.</p>
+      <p class="w3-text-pink">Data Analytics workshop: Attended a 1-day workshop on "Data Analytics" at NIT ,Trichy.</p>
+      <p class="w3-text-pink">Human Ethics Workshop: Attended a 2-days workshop on "Human ethics" conducted by
+        Department of MBA at Sri Ramakrishna Engineering Collage.</p>
+      <hr>
+    </div>
+     
+    <div id="Extra" class="w3-container menu w3-padding-32 w3-white">
+      
+      <h1><b>Extra Curricular</b> </h1>
+      <p class="w3-text-pink">Member of Fine Arts Club(Keyboard Player).</p>
+      <p class="w3-text-pink">Active member of CSI.</p>
+      <p class="w3-text-pink">Active member of FOSS club.</p>
+      <p class="w3-text-pink">Active member of Nature club.</p>
+      <p class="w3-text-pink">Active member of Young Indians.</p>
+      <p class="w3-text-pink">Hands on Training:Attended hands on Training in MEAN STACK.</p>
+      <hr>
+      </div>
+    
+      <div id="Inplant" class="w3-container menu w3-padding-32 w3-white">
+      
+        <h1><b>Inplant</b> </h1>
+        <p class="w3-text-pink">Mindmade Tech ,Coimbatore (10 days)<span class="w3-right w3-tag w3-dark-grey w3-round">Oct-2016</span></p>
+        <p class="w3-text-pink">Nettel Solutions ,Coimbatore(10 days)--->Developed a Messaging Application as a result of the training<span class="w3-right w3-tag w3-dark-grey w3-round">May-2017</span></p>
+        
+        <hr>
+      </div>
+      <div id="Project" class="w3-container menu w3-padding-32 w3-white">
+      
+        <h1><b>Project</b> </h1>
+        <p class="w3-text-pink">"Smart Parking"<span class="w3-right w3-tag w3-dark-grey w3-round">Ongoing</span><br><span class="w3-tag w3-black w3-round">This project demonstrates the parking to be done easily in urban areas.The process goes
+          as an led light is hanged above the corresponding parking area.Red light indicates that the
+          parking area is filled where as Green light indicates that the area is free for parking,so that
+          people could easily identify without any human intervention.</span></p>
+        <p class="w3-text-pink">"Resume Generator"<span class="w3-right w3-tag w3-dark-grey w3-round">Ongoing</span><br><span class="w3-tag w3-black w3-round">This project displays the resume and gets the comment from users and stores the
+          comments automatically in the database.</span></p>
+        <p class="w3-text-pink">"Prediction of fertilizer level for wheat crop"<span class="w3-right w3-tag w3-dark-grey w3-round">Dec 2017-Mar 2018</span><br><span class="w3-tag w3-black w3-round">Graphical interface to display fertilizer(N-NITROGEN,P-PHOSPHORUS,POTASSIUM)
+          level of wheat crop.</span></p>
+        <hr>
+      </div>
+      <div id="Key" class="w3-container menu w3-padding-32 w3-white">
+      
+        <h1><b>Key Course Taken</b> </h1>
+        <p class="w3-text-pink">Completed Course on HTML at SoloLearn.</p>
+        <p class="w3-text-pink">Completed Course on Javascript at SoloLearn.</p>
+        <p class="w3-text-pink">Completed Course on css at SoloLearn.</p>
+        <p class="w3-text-pink">Completed "BASIC GERMAN LANGUAGE"</p>
+        <hr>
+      </div>
+      <div id="Skill" class="w3-container menu w3-padding-32 w3-white">
+      
+        <h1><b>Skills</b> </h1>
+        <p class="w3-text-pink">Programming Languages:C,PHYTHON*,MATLAB*</p>
+        <p class="w3-text-pink">Web technologies : HTML, CSS, Javascript,AngularJS*</p>
+        <p class="w3-text-pink">Database management : mySQL,MongoDB.</p>
+        <p class="w3-text-pink">Miscellaneous : Android programming *,Arduino programming*. </p>
+        <p class="w3-text-pink">Operating system : Windows, Linux</p>
+        <hr>
+      </div><br>
+        
+</div>
+</div>
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-teal w3-teal w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+    <footer class="w3-light-grey w3-padding-64 w3-center" id="about">
+      
+      <img src="dog1.jpg" class="w3-image w3-padding-32" width="300" height="300">
+     
+        <p>Apart from being a web developer, I enjoy most of my time being outdoors. 
+
+          When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+          <br>
+        <h1><b>Known Languages</b></h1>
+    
+    <p class="w3-wide">Tamil(தமிழ்)</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+        </div>
+        <p class="w3-wide">English</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+        </div>
+        <p class="w3-wide">Telugu(తెలుగు)</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+        </div>
+        <p class="w3-wide">French(français)</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:28px;width:35%"></div>
+        </div>
+        <p class="w3-wide">GERMAN(ETWAS DEUTSCH)</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:28px;width:30%"></div>
+        </div>
+        <hr>
+      </div><br>
+    
+  </div>
+</div>
+
+<!-- Contact (with google maps) -->
+<!-- <div id="googleMap" class="w3-grayscale-max" style="width:100%;height:400px;"></div> -->
+
+<div class="w3-container w3-padding-64 w3-black w3-grayscale-min w3-xlarge" id="googleMap">
+  <div class="w3-content">
+    <h1 class="w3-center w3-xxlarge" style="margin-bottom:64px">
+
+    </h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.149676764812!2d76.96350211490815!3d11.102220492100939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4254abad25855b06!2sSri+Ramakrishna+Engineering+College!5e0!3m2!1sen!2sin!4v1528891328326" 
+    width="1050" height="500" frameborder="1" style="border:0" allowfullscreen></iframe>
+
+
+    
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+    <p>Find me at some address at some place or call me at 8754933488</p>
+    <p><span class="w3-tag">FYI!</span> hello!</p>
+    <p class="w3-xxlarge"><strong>send</strong> commands about this page</p>
+    
+    <div ng-app="res" ng-controller="resumes">
+      <p><input class="w3-input w3-padding-16"  type="text" ng-model="Name" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" ng-model="Email" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" ng-model="Subject" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" ng-model="Message" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-teal w3-padding-large" ng-click="submit()" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+      </div>
+    
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-teal w3-padding-48 w3-xxlarge">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+<script>
+  var res1=angular.module("res",[]);
+  res1.controller('resumes',function($scope,$http)
+    {
+    $scope.submit = function(){
+      alert("Response Submitted")
+      $http({
+        url : '/cheps',
+        method : 'POST',
+        data : {
+         Name: $scope.Email,
+         Email:$scope.Password,
+         Subject:$scope.Subject,
+         Message:$scope.Message
+        }
+        
+      }).then(function(output){
+      console.log(output);
+      });
+    }
+  });
+  </script>
+
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
+
+
